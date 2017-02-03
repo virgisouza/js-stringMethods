@@ -1,0 +1,12 @@
+    /*  charAt()
+        concat()
+        contains()
+        indexOf()
+        length()
+        search()
+        slice()
+        split()
+        sub()
+        substr()
+        toLowerCase()
+        toUpperCase()*/
