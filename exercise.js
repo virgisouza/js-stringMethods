@@ -1,3 +1,7 @@
+/*String Methods allow you to work with strings.  */   
+
+
+
     /*  charAt()
         concat()
         contains()
@@ -10,3 +14,5 @@
         substr()
         toLowerCase()
         toUpperCase()*/
+
+    var pet;    
