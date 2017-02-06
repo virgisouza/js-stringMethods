@@ -9,14 +9,12 @@
 
 var longestPlaceName = "Taumatawhakatangihangakoauauotamateaturipukakapiki- maungahoronukupokaiwhenuakitanatahu";  //Yes, this is a real place located in Porangahau, Central Hawke's Bay.
 
-var howManyLetters = longestPlaceName.length;
-console.log(howManyLetters);
+
 
 /*Next, concatenate and console.log the following phrase:
 "x is the longest place name in the world and has y letters in its name."
 where x represents the value at `longestPlaceName` and y represents the value at `howManyLetters`*/
 
-console.log(longestPlaceName + " is the longest place name in the world and has " + howManyLetters + " letters in its name.");
 
 /*The string.charAt() method returns the character at the specified index (position).*/
 
@@ -24,8 +22,7 @@ console.log(longestPlaceName + " is the longest place name in the world and has 
 
 var iDidntKnow = "The national animal of Scotland is the Unicorn";
 
-var fifthLetter = iDidntKnow.charAt(5);
-console.log(fifthLetter);
+
 
 /*The indexOf() method returns the index (position) of the first occurence of a specified text in a string.*/
 
@@ -33,8 +30,7 @@ console.log(fifthLetter);
 
 var randomFact = "All pandas in the world are on loan from China.";
 
-var worldLocator = randomFact.indexOf("world");
-console.log(worldLocator);
+
 
 /*The slice() method extracts a part of a string and returns the extracted part into a new string. This method takes 2 parameters: the starting index (position) and the ending index (position)*/
 
@@ -42,8 +38,7 @@ console.log(worldLocator);
 
 var edward = "People are afraid of me because I am different";
 
-var scissorHand = edward.slice(6, 17);
-console.log(scissorHand);
+
 
 /*The replace() method replaces a specified value with another value in a string.*/
 
@@ -51,8 +46,7 @@ console.log(scissorHand);
 
 var grasshopper = "In order to taste my cup of water you must first fill your cup.";
 
-var theSifu = grasshopper.replace("fill", "empty");
-console.log(theSifu);
+
 
 /*The toLowerCase() method converts the characters in a string to lower case.*/
 
@@ -60,8 +54,7 @@ console.log(theSifu);
 
 var bigTime = "BRUuHHHH, I AM DA GreaTest!";
 
-var smallKine = bigTime.toLowerCase();
-console.log(smallKine);
+
 
 /*The toUpperCase() method converts the characters in a string to upper case.*/
 
@@ -69,8 +62,7 @@ console.log(smallKine);
 
 var bandName = "the beatles";
 
-var bigBand = bandName.toUpperCase();
-console.log(bigBand);
+
 
 /*The split() method converts a string into an array, by separating the string into substrings.*/
 
@@ -78,8 +70,7 @@ console.log(bigBand);
 
 var oreos = "red velvet, cookie dough, peanut butter, banana split, birthday cake";
 
-var oreoList = oreos.split(",");
-console.log(oreoList);
+
 
 /*The substr() method is similar to slice(). The difference is that the second parameter specifies the length of the extracted part. The 2 parameters: the starting index (position) and the length of the extracted part. */
 
@@ -87,8 +78,7 @@ console.log(oreoList);
 
 var drinkMenu = "rum, gin, vodka, kool-aid, haterade";
 
-var favDrink = drinkMenu.substr(5, 3);
-console.log(favDrink);
+
 
 
 
